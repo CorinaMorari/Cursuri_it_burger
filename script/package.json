@@ -1,0 +1,245 @@
+{
+  "bun": [
+    {
+      "id": 1,
+      "name": "brioche bun",
+      "price": 8,
+      "grams": 60
+    }
+  ],
+  "meat": [
+    {
+      "id": 2,
+      "name": "beef patty",
+      "price": 35,
+      "grams": 150,
+      "url": "../img/pirjoala-de-vita.svg"
+    },
+    {
+      "id": 3,
+      "name": "breaded chicken fillet",
+      "price": 25,
+      "grams": 100,
+      "url": "../img/pirjoala-de-pui.svg"
+    },
+    {
+      "id": 4,
+      "name": "grilled chicken fillet",
+      "price": 25,
+      "grams": 100,
+      "url": "../img/pirjoala-de-pui-grilled.svg"
+    }
+  ],
+  "bottom_sauce": [
+    {
+      "name": "-"
+    },
+    {
+      "id": 5,
+      "name": "ketchup",
+      "price": 4,
+      "grams": 20,
+      "url": "../img/asset-5.svg"
+    },
+    {
+      "id": 6,
+      "name": "tartar sauce",
+      "price": 4,
+      "grams": 30,
+      "url": "../img/asset-tartar.svg"
+    },
+    {
+      "id": 7,
+      "name": "mayonnaise",
+      "price": 4,
+      "grams": 20,
+      "url": "../img/maioneza.svg"
+    },
+    {
+      "id": 8,
+      "name": "garlic&bbq",
+      "price": 4,
+      "grams": 20,
+      "url": "../img/tartar-sos.svg"
+    },
+    {
+      "id": 9,
+      "name": "sriracha",
+      "price": 6,
+      "grams": 20,
+      "url": "../img/asset-sriracha.svg"
+    },
+    {
+      "id": 10,
+      "name": "classy sauce",
+      "price": 4,
+      "grams": 20,
+      "url": "../img/asset-tartar.svg"
+    },
+    {
+      "id": 11,
+      "name": "garlic sauce",
+      "price": 4,
+      "grams": 20,
+      "url": "../img/asset-tartar.svg"
+    }
+  ],
+  "top_sauce": [
+    {
+      "name": "-"
+    },
+    {
+      "id": 5,
+      "name": "ketchup",
+      "price": 4,
+      "grams": 20,
+      "url": "../img/asset-5.svg"
+    },
+    {
+      "id": 6,
+      "name": "tartar sauce",
+      "price": 4,
+      "grams": 30,
+      "url": "../img/asset-tartar.svg"
+    },
+    {
+      "id": 7,
+      "name": "mayonnaise",
+      "price": 4,
+      "grams": 20,
+      "url": "../img/asset-tartar.svg"
+    },
+    {
+      "id": 8,
+      "name": "garlic&bbq",
+      "price": 4,
+      "grams": 20,
+      "url": "../img/tartar-sos.svg"
+    },
+    {
+      "id": 9,
+      "name": "sriracha",
+      "price": 6,
+      "grams": 20,
+      "url": "../img/asset-sriracha.svg"
+    },
+    {
+      "id": 10,
+      "name": "classy sauce",
+      "price": 4,
+      "grams": 20,
+      "url": "../img/asset-tartar.svg"
+    },
+    {
+      "id": 11,
+      "name": "garlic sauce",
+      "price": 4,
+      "grams": 20,
+      "url": "../img/asset-tartar.svg"
+    }
+  ],
+  "cheese": [
+    {
+      "name": "-"
+    },
+    {
+      "id": 12,
+      "name": "cheddar cheese",
+      "price": 12,
+      "grams": 20,
+      "url": "../img/asset-cheddar.svg"
+    },
+    {
+      "id": 13,
+      "name": "dorblu cheese",
+      "price": 15,
+      "grams": 25,
+      "url": "../img/asset-dorblu.svg"
+    }
+  ],
+  "toppings": [
+    {
+      "name": "-"
+    },
+    {
+      "id": 14,
+      "name": "cripsy bacon",
+      "price": 12,
+      "grams": 10,
+      "url": "../img/bacon-crocant.svg"
+    },
+    {
+      "id": 15,
+      "name": "fried egg",
+      "price": 10,
+      "grams": 40,
+      "url": "../img/ou-prajit.svg"
+    },
+    {
+      "id": 16,
+      "name": "marinated onion",
+      "price": 2,
+      "grams": 10,
+      "url": "../img/ceapa-marinata.svg"
+    },
+    {
+      "id": 17,
+      "name": "caramel onion",
+      "price": 4,
+      "grams": 20,
+      "url": "../img/ceapa-caramelizata.svg"
+    },
+    {
+      "id": 18,
+      "name": "picles",
+      "price": 4,
+      "grams": 30,
+      "url": "../img/castraveti-murati.svg"
+    },
+    {
+      "id": 19,
+      "name": "cucumber",
+      "price": 4,
+      "grams": 20,
+      "url": "../img/castraveti-proaspeti.svg"
+    },
+    {
+      "id": 20,
+      "name": "tomato",
+      "price": 5,
+      "grams": 40,
+      "url": "../img/rosii.svg"
+    },
+    {
+      "id": 21,
+      "name": "iceberg lettuce",
+      "price": 5,
+      "grams": 15,
+      "url": "../img/salata-iceberg.svg"
+    }
+  ],
+  "order": [
+    {
+      "products": [
+        {
+          "name": "brioche bun",
+          "price": 8,
+          "grams": 60
+        },
+        {
+          "name": "beef patty",
+          "price": 35,
+          "grams": 150
+        },
+        {
+          "name": "iceberg lettuce",
+          "price": 5,
+          "grams": 15
+        }
+      ],
+      "total": "48 lei",
+      "burgerName": "corina",
+      "id": 1
+    }
+  ]
+}

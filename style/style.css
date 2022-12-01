@@ -1,0 +1,262 @@
+body {
+  background-color: #2b2a2a;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+/*/dropdown/*/
+
+select {
+  display: block;
+  background: #2b2a2a;
+  border: 3px solid #f8bb46;
+  width: 350px;
+  font-size: large;
+  color: white;
+  height: 50px;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+.divParent{
+  position: relative;
+  display: block;
+}
+.deleteSelect{
+  position: absolute;
+  top: 13px;
+  right: -28px;
+  height: 20px;
+  width: 20px;
+  background-image: url(../img/delete-option.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.burger_item_name {
+  background: #2b2a2a;
+  border: 3px solid #f8bb46;
+  width: 325px;
+  font-size: medium;
+  color: white;
+  height: 25px;
+  padding: 10px;
+  margin-top: 10px;
+
+}
+.title {
+  display: block;
+  border-radius: 0;
+  white-space: normal;
+  color: #f8bb46;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: left;
+}
+.add_item{
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  height: 20px;
+  width: 150px;
+  background-color: red;
+
+}
+.add_btn {
+  color: #f8bb46;
+  border: 1px solid #2b2a2a;
+  text-align: center;
+  width: 80px;
+  height: 25px;
+  background-color: transparent;
+
+}
+.btn_add_plus {
+  border: 1px solid #f8bb46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+
+  width: 22px;
+  height: 22px;
+
+  transition: .3s ease-in-out;
+  background-color: transparent;
+}
+.btn_add_plus:hover{
+
+  transform: rotate(90deg);
+}
+
+.btn_add {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+
+}
+
+.add_card {
+  display: flex;
+  justify-content: center;
+  background: orange;
+  width: 350px;
+  font-size: medium;
+  color: white;
+  height: 45px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  opacity:1;
+}
+.add_card:hover{
+  transition: 0.5s;
+  opacity:0.8;
+  color: darkgray;
+}
+
+.restart_btn {
+  display: flex;
+  justify-content: center;
+  background: white;
+  width: 350px;
+  font-size: medium;
+  color: orange;
+  height: 45px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  opacity:1;
+}
+.restart_btn:hover {
+  transition: 0.5s;
+  opacity:0.8;
+  color: darkgray;
+}
+/*/left side/*/
+.left_side {
+  width: 600px;
+  padding: 70px;
+}
+.check {
+  width: 350px;
+  margin-top: 60px;
+  padding-top: 30px;
+  border-top: 1px solid yellow;
+}
+.check_text p{
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: clip;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.check_text {
+  margin: 25px 0;
+}
+.check_text div{
+  margin: 0 5px;
+}
+.span_name{
+  font-weight: 700;
+  line-height: 1;
+}
+.span_price{
+  color: #f8bb46;
+}
+.total_text{
+  font-size: 30px !important;
+}
+
+
+/*/right side/*/
+/*/Burger image/*/
+.burger_image {
+  position: relative;
+  padding: 0 235px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.burger_meat_image {
+  position: relative;
+  padding: 0 235px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 250px;
+}
+.left_description {
+  position: absolute;
+  font-family: "Pattaya", sans-serif;
+  color: #f8bb46;
+  font-size: 36px;
+  width: 150px;
+  text-transform: lowercase;
+
+  left: 0;
+  top: 35px;
+  text-align: right;
+}
+.right_description {
+  position: absolute;
+  font-family: "Pattaya", sans-serif;
+  color: #f8bb46;
+  font-size: 36px;
+  width: 150px;
+  text-transform: lowercase;
+
+  right: -110px;
+  top: 0;
+  text-align: right;
+}
+.burger_image_before:before {
+  content: "";
+  position: absolute;
+  top: 39px;
+  left: 170px;
+  height: 70px;
+  width: 200px;
+  background-image: url(../img/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-size: 61px;
+}
+.burger_image_after:after {
+  content: "";
+  position: absolute;
+  top: 19px;
+  right: -95px;
+  height: 70px;
+  width: 200px;
+  background-image: url(../img/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-size: 61px;
+}
+
+.burger_item_meat {
+  display: flex;
+  flex-direction: column;
+}
+
+.animation {
+  animation: hithere 1s ease normal;
+}
+@keyframes hithere {
+  30% {transform: rotate(0deg);}
+  40%, 60% { transform: rotate(-10deg); }
+  50% { transform: rotate(10deg); }
+  80% { transform: rotate(0deg); }
+}
